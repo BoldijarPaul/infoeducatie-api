@@ -1,7 +1,11 @@
 attributes :id,
-           :title,
-           :county,
-           :discourse_url
+            :title,
+            :county,
++           :description,
++           :technical_description,
++           :system_requirements,
++           :source_url,
++           :homepage
 
 child :contestants => :contestants do
   attributes :id, :name
